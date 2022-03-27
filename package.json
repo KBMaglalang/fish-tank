@@ -4,12 +4,13 @@
   "description": "Fish!  In a tank!",
   "main": "express_server.js",
   "scripts": {
-    "start": "node express_server.js",
+    "start": "./node_modules/.bin/nodemon -L express_server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
-    "express": "^4.16.1"
+    "express": "^4.16.1",
+    "nodemon": "^2.0.15"
   }
 }

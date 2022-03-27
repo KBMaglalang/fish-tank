@@ -1,6 +1,6 @@
 class BiteFish extends GoFish {
   constructor(options) {
-    super(options); // call super to run the code inside 'Fish's constructor
+    super(options);
     this.imageUri = '/images/Kit-Cat.png'; // set the image to the new image for this fish
     // this.surgeSecondsLeft = 0;
     this.maxSurge = 2.0;
